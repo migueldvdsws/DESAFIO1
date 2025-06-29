@@ -22,31 +22,15 @@ Este proyecto es una pequeña aplicación backend desarrollada en Node.js para r
 npm init -y
 Ejecuta comandos desde la terminal para interactuar con la aplicación.
 
-Uso
-Registrar una cita
+
+1. Registrar una cita
 Para registrar una nueva cita debes usar el comando:
 
-bash
-Copiar
-Editar
-node index.js registrar <nombre> <edad> <tipo de animal> <color> <enfermedad>
-Ejemplo:
-
-bash
-Copiar
-Editar
 node index.js registrar Benito "2 años" perro blanco vomitos
-Leer todas las citas
-Para leer las citas registradas:
 
-bash
-Copiar
-Editar
+2. leer una cita:
+Para Leer  una nueva cita debes usar el comando:
 node index.js leer
-Notas
-El archivo citas.json se actualiza automáticamente con las nuevas citas.
-
-Los argumentos se deben ingresar en el orden indicado y sin omitir ninguno para la función registrar.
 
 Requisitos
 Node.js instalado en el sistema.
